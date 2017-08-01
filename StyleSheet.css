@@ -1,0 +1,42 @@
+﻿body {
+    background-color: black;
+    font-style:italic;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+#game{
+    position: absolute;
+    top: 0;
+    background-image: url('/Image/blackjack_table.png');
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 500px;
+    left: -9999px;
+    margin: auto auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#menu{
+    background-color:lightgreen;
+    height:200px;
+    width:auto;
+}
+#Content{
+    background-color:#2F4F2F;
+    height:200px;
+    width:100%;
+    position: absolute;
+    bottom: 60px;
+    color: white;
+}
+#Footer{
+    background-color:black;
+    color:yellow;
+    height:60px;
+    width:100%;
+    position: absolute;
+    bottom: 88px;
+    left: 10px;
+}
